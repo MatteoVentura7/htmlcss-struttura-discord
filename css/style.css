@@ -15,6 +15,12 @@ CONTAINER
     margin-left: auto;
     margin-right: auto;
 }
+
+.col-mid {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
 /*------------
 HEADER TOP
 --------------*/
@@ -46,4 +52,21 @@ HEADER TOP
 .header-top nav {
     flex-grow: 1 ;
     text-align: center;
+}
+
+/*------------
+HEADER BOTTOM
+--------------*/
+
+.header-bottom {
+    background-color: #00008B;
+    min-height: 400px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.header-bottom > .col-mid {
+    display: flex;
+    background-color: #EE82EE;
+    min-height: 400px;
 }
