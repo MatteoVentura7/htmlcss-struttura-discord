@@ -1,0 +1,49 @@
+/*------------
+RESET
+-------------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*-----------
+CONTAINER
+------------*/
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*------------
+HEADER TOP
+--------------*/
+
+.header-top {
+    background-color: #ADD8E6;
+    padding: 10px 0;
+}
+
+.header-top > .container {
+    display: flex;
+    background-color: #DAA520;
+}
+
+.header-top > .container > * {
+    border: 1px dashed black;
+    padding: 6px;
+}
+
+.header-top .logo, .header-top .login {
+    width: 20%;
+
+}
+
+.header-top .login {
+    text-align: right;
+}
+
+.header-top nav {
+    flex-grow: 1 ;
+    text-align: center;
+}
