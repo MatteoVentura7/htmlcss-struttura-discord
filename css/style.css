@@ -39,6 +39,17 @@ CONTAINER
     min-height: 700px;
     
 }
+
+.col-footer-big {
+    min-width: 400px;
+    min-height: 450px;
+}
+
+.col-footer-small {
+    min-width: 200px;
+    min-height: 450px;
+    
+}
 /*------------
 HEADER TOP
 --------------*/
@@ -142,6 +153,33 @@ MAIN
     display: flex;
     background-color: #228B22;
     border: 1px dashed black;
+}
+
+/*------------
+FOOTER TOP
+--------------*/
+
+.footer-top {
+    background-color: #23272A;
+    min-height: 400px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    
+  
+}
+
+.footer-top > .col-footer-big {
+    display: flex;
+    background-color: #F08080;
+    border: 1px dashed black;
+}
+
+.footer-top > .col-footer-small {
+    display: flex;
+    background-color: #20B2AA;
+    border: 1px dashed #D3F0EE;
 }
 
 
