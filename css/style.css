@@ -33,6 +33,12 @@ CONTAINER
     min-height: 400px;
     
 }
+
+.col-bigger {
+    width: 1200px;
+    min-height: 700px;
+    
+}
 /*------------
 HEADER TOP
 --------------*/
@@ -129,6 +135,12 @@ MAIN
 .section-grey > .col-big {
     display: flex;
     background-color: #1E90FF;
+    border: 1px dashed black;
+}
+
+.section-grey > .col-bigger {
+    display: flex;
+    background-color: #228B22;
     border: 1px dashed black;
 }
 
