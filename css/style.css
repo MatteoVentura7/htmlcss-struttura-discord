@@ -50,6 +50,14 @@ CONTAINER
     min-height: 450px;
     
 }
+
+.container-footer {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    padding: 15px 0;
+}
 /*------------
 HEADER TOP
 --------------*/
@@ -166,6 +174,7 @@ FOOTER TOP
     padding-bottom: 40px;
     display: flex;
     justify-content: center;
+    margin-bottom: 2px;
     
   
 }
@@ -181,6 +190,41 @@ FOOTER TOP
     background-color: #20B2AA;
     border: 1px dashed #D3F0EE;
 }
+
+/*------------
+FOOTER BOTTOM
+--------------*/
+
+.footer-bottom {
+    background-color: #23272A;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    
+}
+
+.footer-bottom > .container-footer {
+    display: flex;
+    background-color: #7FFFD4;
+}
+
+.footer-bottom > .container-footer > * {
+    border: 1px dashed black;
+    padding: 6px;
+
+}
+
+.footer-bottom .logo, .footer-bottom .botton {
+    background-color: #FFB6C1;
+    width: 5%;
+
+}
+
+
+
+
+
+
 
 
 
